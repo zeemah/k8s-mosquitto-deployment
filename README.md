@@ -9,3 +9,7 @@
 ### To enter into the pod
 
     ""kubectl exec -it <podname> -- /bin/sh""
+
+### To delete pod
+
+    ""kubectl delete -f <filename.yaml>""
