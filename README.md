@@ -13,3 +13,5 @@
 ### To delete pod
 
     ""kubectl delete -f <filename.yaml>""
+
+Note: Create the ConfigMap and Secrets first as they are referenced in the mosquitto cluster, else the cluster will fail to create. 
